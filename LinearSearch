@@ -1,0 +1,31 @@
+//C++
+//Array = a set of similar type of data
+//LinearSearch==> Use for searching key value in the array
+
+
+#include <iostream>
+
+int LinearSearch(int arr[], int n, int key){
+    for(int i = 0; i < n;i++){
+        if(arr[i] == key)
+            return i+1;
+    }
+    return -1; //in case there is no key value in the array
+}
+int main() {
+    
+    int n;
+    std::cin >> n;
+    int arr[n];
+    for(int i = 0;i < n;i++){
+        std::cin >> arr[i];
+    }
+
+    int key;
+    std::cin >> key;
+
+    std::cout <<"The key value is at position : "<< LinearSearch(arr,n,key) << std::endl;
+    std::cout << "-1 means there is no value in the array" << std::endl;
+
+    return 0;
+}
