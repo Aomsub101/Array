@@ -1,6 +1,6 @@
 //C++
 //Array sorted
-//Bubble sorted
+//Bubble sorted = repeatly swap two adjacent elements if they are in the wrong order
 #include <iostream>
 
 int main() {
