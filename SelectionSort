@@ -1,6 +1,6 @@
 //C++
 //Array sorted
-//Selection Sort
+//Selection Sort = find the minimum element in unsorted array and swap it with element at the beginning
 #include <iostream>
 
 int main() {
