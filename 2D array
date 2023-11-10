@@ -1,0 +1,30 @@
+//C++
+//Array sorted
+//Insertion sort = Insert an element from unsorted array to its correct position in sorted array
+#include <bits/stdc++.h>
+using namespace std;
+//2D array
+//same as array but has two dimensional
+int main() {
+
+    int n,m;
+    cin >> n >> m;
+
+    //[x][y] x = rows, y = columns
+
+    int integer[n][m];
+    char character[n][m];
+    bool boolean[n][m];
+    float float_point[n][m];
+    string str[n][m];
+
+    //input
+    
+
+    for(int i = 0; i< n; i++){
+        for(int j = 0;j < m; j++){
+            cin >> integer[i][j]; //can be any array but the input 
+                                  //has to be the same data type as you declare
+        }
+    }
+}
